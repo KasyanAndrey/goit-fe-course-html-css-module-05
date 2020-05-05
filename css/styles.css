@@ -1,0 +1,190 @@
+img {
+    display: block;
+    max-width: 100%;
+    background-color: #e9f0fd;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+  }
+  
+  .common {
+    margin: 0 auto;
+    width: 1170px;
+  }
+  /*-----------------------------------------header------------------*/
+  .container {
+    margin: 0px auto;
+    max-width: 1170px;
+    background-color: #ffffff;
+  }
+  
+  .page-navigation {
+    padding: 42px 0 34px 0;
+  }
+  
+  .logotype {
+    float: left;
+  }
+  
+  .logotype-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    line-height: 32px;
+    color: #626262;
+  }
+  
+  .logotype-link::first-letter {
+    color: #1abc9c;
+    font-weight:bold;
+  }
+  
+  .navigation-list {
+    float: right;
+    list-style: none;
+  }
+  
+  .navigation-list-item {
+    display: inline-block;
+  }
+  
+  .navigation-list-item:not(:last-child){
+    margin-right: 34px;
+  }
+  
+  .navigation-list-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 11px;
+    color: #0f0101;
+  }
+  
+  .navigation-list-link:hover {
+    color: #1abc9c;
+  }
+/*--------------------------------------------MAIN-----------------------------------
+
+--------------------------------------section slider--------------------------------*/
+  .page-slider {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  .slider-content-title {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 48px;
+    color: #515151;
+  }
+
+  .slider-content-title-menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 48px;
+    color: #515151;
+  }
+
+  .slider-arrow {
+    width: 1110px;
+    margin: 0 auto;
+  }
+/*------------------------------------section products-----------------------------*/
+.page-collection {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.collection-title {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 48px;
+    color: #515151;
+  }
+  
+  .collection-title:after {
+    content: "";
+    display: block;
+    background-color: #1ABC9C;
+    height: 8px;
+    width: 164px;
+    margin: 32px 472px 92px;
+  }
+  
+  .collection-products {
+    width: 1110px;
+    margin: 0 auto; 
+  }
+
+  
+    
+  .collection-products-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .collection-products-list-item {
+    float: left;
+  }
+  
+  .collection-products-list-item:not(:last-child){
+    margin-right: 30px;
+  }
+    
+  .collection-products-list-item-name-price {
+    display: inline-block;
+    background-color: #323232;
+    width: 254px;
+    height: 40px;
+  }
+  
+  .collection-products-list-item-name {
+    float: left;
+    padding: 4px 0px 4px 14px;
+    text-align: center ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    margin: 0px;
+  }
+  
+  .collection-products-list-item-price {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    margin: 0px;
+    padding: 4px 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .collection-products-list-item:hover .collection-products-list-item-name-price {
+    background-color: #1abc9c;
+  }
