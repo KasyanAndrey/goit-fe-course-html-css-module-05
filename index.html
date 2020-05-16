@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module-05</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="#">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="path/to/pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
 <body class="common">
-    <header class="container">
-        <nav class="page-navigation">
+    <header class="container-header">
+        <nav class="page-navigation clearfix">
             <div class="logotype">
                 <a href="#" class="logotype-link">mart</a>
             </div>
@@ -37,60 +40,170 @@
             </div>
         </nav>
     </header>
-    <main class="container">
-        <section class="page-slider">
+    <main class="container-main">
+        <section class="page-slider clearfix">
+            <img class="page-slider-photo" src="img/page-slider/slide.png" alt="girls" width="1110" height="600">
             <div class="slider-content">
                 <h2 class="slider-content-title">affordable paris tours</h2>
-                <ul class="slider-content-title-menu">
-                    <li>city tours</li>
-                    <li>tour tickets</li>
-                    <li>tour gvides</li>
-                </ul>
+                <p class="slider-content-title-menu">city tours/tour tickets/</p>
             </div>         
-            <div class="slider-arrow">
-                <ul class=" clearfix">
-                    <li class=""></li>
-                    <li class=""></li>
-                </ul>
+            <div class="slider-arrow-left">
+            </div>
+            <div class="slider-arrow-right">
             </div>
         </section>
         <section class="page-collection">
             <h2 class="collection-title">new collection</h2>
             <div class="collection-products">
-                <ul class="collection-products-list clearfix">
-                    <li class="collection-products-list-item">
-                        <a href="#"><img class="collection-products-list-item-photo" src="img/gallery/blue-tshirt1.png" alt="blue tshirt" width="255" height="282"></a>
-                            <div class="collection-products-list-item-name-price clearfix">
-                                <a href="#"><h3 class="collection-products-list-item-name">blue tshirt</h3></a>
-                                <span class="collection-products-list-item-price">$26</span>
+                <ul class="collection-products-list clearfix">                    
+                    <li class="collection-products-list-item">                        
+                        <div class="collection-products-list-item-card">                                      
+                            <img class="collection-products-list-item-photo" src="img/collection-products/blue-tshirt.png" alt="blue tshirt" width="255" height="282">
+                            <div class="overlay">
+                            </div>  
+                            <ul class="card-icon">                            
+                                <li class="icon-like">
+                                    <a href="#">
+                                        <span class="visually-hidden">like</span>
+                                    </a>
+                                </li>
+                                <li class="icon-shuffle">
+                                    <a href="#">
+                                        <span class="visually-hidden">shuffle</span>
+                                    </a>
+                                </li>
+                                <li class="icon-clock">
+                                    <a href="#">
+                                        <span class="visually-hidden">clock</span>
+                                    </a>
+                                </li>
+                                <li class="icon-cart">
+                                    <img class="icon-cart-img" src="icon/cart.svg" alt="cart" width="32" height="32">                                                           
+                                    <a href="#">
+                                        <span class="visually-hidden">cart</span>
+                                    </a>
+                                    <p class="icon-name">add to cart</p>
+                                </li>
+                            </ul>
+                        </div>                        
+                        <div class="collection-products-list-item-name-price clearfix">
+                            <a href="#"><h3 class="collection-products-list-item-name">blue tshirt</h3></a>
+                            <span class="collection-products-list-item-price">$26</span>
                         </div>
                     </li>
                     <li class="collection-products-list-item">
-                        <a href="#"><img class="collection-products-list-item-photo" src="img/gallery/blue-tshirt2.png" alt="blue tshirt" width="255" height="282"></a>
-                            <div class="collection-products-list-item-name-price clearfix">
-                                <a href="#"><h3 class="collection-products-list-item-name">blue tshirt</h3></a>
-                                <span class="collection-products-list-item-price">$31</span>
+                        <div class="collection-products-list-item-card">                       
+                            <img class="collection-products-list-item-photo" src="img/collection-products/woman-tshirt.png" alt="blue tshirt" width="255" height="282">
+                            <div class="overlay">
+                            </div> 
+                            <ul class="card-icon">
+                                <li class="icon-like">
+                                    <a href="#">
+                                        <span class="visually-hidden">like</span>
+                                    </a>
+                                </li>
+                                <li class="icon-shuffle">
+                                    <a href="#">
+                                        <span class="visually-hidden">shuffle</span>
+                                    </a>
+                                </li>
+                                <li class="icon-clock">
+                                    <a href="#">
+                                        <span class="visually-hidden">clock</span>
+                                    </a>
+                                </li>
+                                <li class="icon-cart">
+                                    <img class="icon-cart-img" src="icon/cart.svg" alt="cart" width="32" height="32">                                                           
+                                    <a href="#">
+                                        <span class="visually-hidden">cart</span>
+                                    </a>
+                                    <p class="icon-name">add to cart</p>
+                                </li>
+                            </ul>
+                        </div>                        
+                        <div class="collection-products-list-item-name-price clearfix">
+                            <a href="#"><h3 class="collection-products-list-item-name">woman tshirt</h3></a>
+                            <span class="collection-products-list-item-price">$31</span>
                         </div>
                     </li>
                     <li class="collection-products-list-item">
-                        <a href="#"><img class="collection-products-list-item-photo" src="img/gallery/cool-lingerie1.png" alt="blue tshirt" width="255" height="282"></a>
-                            <div class="collection-products-list-item-name-price clearfix">
-                                <a href="#"><h3 class="collection-products-list-item-name">cool lingerie</h3></a>
-                                <span class="collection-products-list-item-price">$21</span>
+                        <div class="collection-products-list-item-card">              
+                            <img class="collection-products-list-item-photo" src="img/collection-products/yellow-tshirt.png" alt="blue tshirt" width="255" height="282">
+                            <div class="overlay">
+                            </div>
+                            <ul class="card-icon">
+                                <li class="icon-like">
+                                    <a href="#">
+                                        <span class="visually-hidden">like</span>
+                                    </a>
+                                </li>
+                                <li class="icon-shuffle">
+                                    <a href="#">
+                                        <span class="visually-hidden">shuffle</span>
+                                    </a>
+                                </li>
+                                <li class="icon-clock">
+                                    <a href="#">
+                                        <span class="visually-hidden">clock</span>
+                                    </a>
+                                </li>
+                                <li class="icon-cart">
+                                    <img class="icon-cart-img" src="icon/cart.svg" alt="cart" width="32" height="32">                                                           
+                                    <a href="#">
+                                        <span class="visually-hidden">cart</span>
+                                    </a>
+                                    <p class="icon-name">add to cart</p>
+                                </li>
+                            </ul>
+                        </div>                        
+                        <div class="collection-products-list-item-name-price clearfix">
+                            <a href="#"><h3 class="collection-products-list-item-name">yellow tshirt</h3></a>
+                            <span class="collection-products-list-item-price">$21</span>
                         </div>
                     </li>
-                    <li class="fcollection-products-list-item">
-                        <a href="#"><img class="collection-products-list-item-photo" src="img/gallery/cool-lingerie2.png" alt="blue tshirt" width="255" height="282"></a>
-                            <div class="collection-products-list-item-name-price clearfix">
-                                <a href="#"><h3 class="collection-products-list-item-name">cool lingerie</h3></a>
-                                <span class="collection-products-list-item-price">$56</span>
+                    <li class="collection-products-list-item">
+                        <div class="collection-products-list-item-card">                       
+                            <img class="collection-products-list-item-photo" src="img/collection-products/cool-lingerie.png" alt="blue tshirt" width="255" height="282">
+                            <div class="overlay">
+                            </div>
+                            <ul class="card-icon">
+                                <li class="icon-like">
+                                    <a href="#">
+                                        <span class="visually-hidden">like</span>
+                                    </a>
+                                </li>
+                                <li class="icon-shuffle">
+                                    <a href="#">
+                                        <span class="visually-hidden">shuffle</span>
+                                    </a>
+                                </li>
+                                <li class="icon-clock">
+                                    <a href="#">
+                                        <span class="visually-hidden">clock</span>
+                                    </a>
+                                </li>
+                                <li class="icon-cart">
+                                    <img class="icon-cart-img" src="icon/cart.svg" alt="cart" width="32" height="32">                                                           
+                                    <a href="#">
+                                        <span class="visually-hidden">cart</span>
+                                    </a>
+                                    <p class="icon-name">add to cart</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="collection-products-list-item-name-price clearfix">
+                            <a href="#"><h3 class="collection-products-list-item-name">cool lingerie</h3></a>
+                            <span class="collection-products-list-item-price">$56</span>
                         </div>
                     </li>
                 </ul>
             </div>
-
         </section>
     </main>
-
+    <footer class="container-footer">
+        <div class="footer-signature">
+            <p>All Rights Reserved © Dokan | Designed <a href="#">ThemenGraph</a></p>
+        </div>
+    </footer>
 </body>
 </html>
