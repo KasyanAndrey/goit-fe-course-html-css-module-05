@@ -37,18 +37,17 @@ h2, p {
   content: '';
   clear: both;
 }
-
+/*----------------------------header------------------*/
 .container-header {
   margin: 0px auto;
   max-width: 1110px;
-  padding-bottom: 36px;
   background-color: #ffffff;
   display: block;
 }
 
 .page-navigation {
-  padding-top: 40px;
-  padding-bottom: 34px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .logotype {
@@ -129,12 +128,16 @@ h2, p {
   color: #ffffff;
 }
 
-.slider-arrow-left {
+.slider-arrow {
   position: absolute;
-  top: 50%;
-  left: 9%;
-  transform: translate(-9%,-50%);
-  display: inline-block;
+  width: 1110px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);  
+}
+
+.slider-arrow-left {
+  float: left;  
   width: 104px;
   height: 104px;
   background-color: rgb( 78, 198, 171 );
@@ -160,11 +163,7 @@ h2, p {
 }
 
 .slider-arrow-right {
-  position: absolute;
-  top: 50%;
-  left: 91%;
-  transform: translate(-91%,-50%);
-  display: inline-block;
+  float: right;  
   width: 104px;
   height: 104px;
   background-color: rgb( 78, 198, 171 );
@@ -229,7 +228,7 @@ h2, p {
   height: 40px;
 }
   
-.collection-products-list-item-name {
+.collection-products-list-item-name-link {
   float: left;
   padding: 4px 0px 4px 14px;
   font-size: 18px;
